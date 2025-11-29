@@ -1,0 +1,2 @@
+source /Users/danielsterzel/esp/wifi/build/gdbinit/symbols
+source /Users/danielsterzel/esp/wifi/build/gdbinit/connect
