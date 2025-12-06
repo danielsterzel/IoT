@@ -25,7 +25,7 @@
 #include <stddef.h>
 
 #define USER_ID  "daniel"
-#define DEVICE_ID "device01"
+#define DEVICE_ID "esp32"
 
 static AntiTheftMqttTopics topicStruct;
 

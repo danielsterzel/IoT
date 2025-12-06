@@ -14,7 +14,7 @@ def connection_handler(client, user_data, flags, result_code):
     client.subscribe(TOPIC_BASE)
     print(f"Subscribed to: {TOPIC_BASE}")
 
-    client.publish(TOPIC_COMMAND, "")
+    client.publish(TOPIC_COMMAND, "ARM")
 
 def message_handler(client, user_data, msg):
     print(f"[{msg.topic}] {msg.payload.decode('utf-8')}")
