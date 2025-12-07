@@ -11,8 +11,7 @@ static const char* TAG = "MAIN";
 void app_main(){
     ESP_LOGI(TAG, "STARTING ANTI THEFT SYSTEM");
     antiTheftWifiInit();
-    // antiTheftMqttStart();
-
+    
     while(1){
         vTaskDelay(pdMS_TO_TICKS(1000));
     }
